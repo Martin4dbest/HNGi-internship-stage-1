@@ -2,7 +2,7 @@
 
 # Stage One Task
 
-## Objective
+## The  Objective
 
 You are welcome to Stage One of the HNGi Internship! In this task we will be  creating and hosting an API endpoint that accepts GET requests and returns specific information in JSON format. Your objective is to implement this API following the provided requirements.
 
