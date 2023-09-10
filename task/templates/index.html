@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGi  INTERNSHIP  TASK 1</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <form action="/api" method="get">
+        <div class="form-title"> HNGi INTERNSHIP STAGE 1 </div><br>
+        <div class="form-group">
+            <label for="slack_name">Slack Name: </label><br>
+            <input type="text" name="slack_name" id="slack_name">
+        </div>
+        <div class="form-group">
+            <label for="track">Track: </label><br>
+            <select id="track" name="track">
+                <option value="None"></option>
+                <option value="backend"> Backend </option>
+                <option value="design"> Product Design</option>
+                <option value="frontend"> FRONTEND </option>
+                <option value="mobile"> Mobile </option>
+                <option value="video_marketing"> Video Marketing</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="SUBMIT">
+        </div>
+    </form>
+</body>
+</html>
