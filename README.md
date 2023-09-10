@@ -1,6 +1,6 @@
 `HNGi Internship`
 
-# Stage One Task
+# Stage One Task:
 
 ## The  Objective
 
